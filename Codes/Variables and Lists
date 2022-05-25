@@ -1,0 +1,48 @@
+# Create a string, an integer, and a floating point number. Assign values to them, and print them.
+
+MyIntegerA = 1
+MyIntegerB = 2
+TotalSum = MyIntegerA + MyIntegerB
+print(MyIntegerA)
+print(MyIntegerB)
+print(TotalSum)
+
+MyDecimalA = 3.8
+MyDecimalB = 48.4
+TotalDecimals = MyDecimalA + MyDecimalB
+TotalSumForReal = TotalSum + TotalDecimals
+print(MyDecimalA)
+print(MyDecimalB)
+print(TotalDecimals)
+print(TotalSumForReal)
+
+MyStringA = "This is "
+MyStringB = "so wrong!"
+MySentence = MyStringA + MyStringB
+print(MyStringA)
+print(MyStringB)
+print(MySentence)
+
+# Create lists for the three data type, and add the variables to your list.
+
+MyNumbersList = [0] * 7
+MyStringsList = [""] * 3
+x = 0
+
+MyNumbersList[0] = MyIntegerA
+MyNumbersList[1] = MyIntegerB
+MyNumbersList[2] = TotalSum
+MyNumbersList[3] = MyDecimalA
+MyNumbersList[4] = MyDecimalB
+MyNumbersList[5] = TotalDecimals
+MyNumbersList[6] = TotalSumForReal
+
+for x in range(7):
+    print(MyNumbersList[x])
+
+MyStringsList[0] = MyStringA
+MyStringsList[1] = MyStringB
+MyStringsList[2] = MySentence
+
+for x in range(3):
+    print(MyStringsList[x])
