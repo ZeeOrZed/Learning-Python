@@ -1,0 +1,31 @@
+MyString1 = "Hello world!"
+print(MyString1.index("o"))
+# That prints out 4, because the location of the first occurrence of the letter "o" is 4 characters away from the first
+# character. Notice how there are actually two o's in the phrase - this method only recognizes the first.
+# Indexing in Python starts from 0.
+
+print(MyString1.count("l"))
+# Counts the numbers of "insert character here" in your string.
+
+print(MyString1[3:7])
+# This prints a slice of the string, starting at index 3, and ending at index 6.
+
+# If you just have one number in the brackets, it will give you the single character at that index. If you leave out the
+# first number but keep the colon, it will give you a slice from the start to the number you left in. If you leave out
+# the second number, it will give you a slice from the first number to the end.
+
+# You can even put negative numbers inside the brackets. They are an easy way of starting at the end of the string
+# instead of the beginning.
+
+print(MyString1[:-1])
+# Completely reverses your string.
+
+print(MyString1.upper())
+print(MyString1.lower())
+# prints your string in upper and lower case respectively
+
+x = 2
+print(x == 2)  # equals to
+print(x == 3)
+print(x < 3)  # less than
+print(x != 8)  # not equals to
